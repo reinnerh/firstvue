@@ -1,19 +1,15 @@
 <template>
-    <h1>Curriculus</h1>
+  <h2>• 4network 2022 - Atual</h2>
+      <h3>Consultor de Infraestrutua</h3>
+          <h4>   - Teste</h4>
+          
+          <h4>   - Teste</h4>
 </template>
 
 <style>
 
-main {
-  min-height: 150vh;
-  text-align: center;
+.h2 {
+  color: rgb(0, 113, 189);
 }
 
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
 </style>

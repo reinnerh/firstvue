@@ -33,6 +33,7 @@ import Rodape from './components/Rodape.vue';
 header {
   line-height: 1.5;
   max-height: 100vh;
+  text-align: center;
 }
 
 #fotoperfil {
@@ -69,10 +70,17 @@ nav a:first-of-type {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
     padding: 1rem 0;
     margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 }
 
 main {
   min-height: 150vh;
+
 }
+
+footer {
+  text-align: center;
+}
+
 </style>
