@@ -5,7 +5,7 @@ export default {
       infos: [
         {
           id: 0,
-          empresa: "4network",
+          empresa: "4Network",
           cargo: "Consultor de Infraestrutura",
           atividade1: "Manutenção e acompanhamento da infra da empresa",
           atividade2: "Controle de e-mails e usuarios",
@@ -52,22 +52,34 @@ export default {
 <template>
   <div class="container">
     <div class="expp" v-for="x in infos">
-      <li>{{ infos[x.id].empresa }}</li>
-      <li>{{ infos[x.id].cargo }}</li>
-      <li>{{ infos[x.id].atividade1 }}</li>
-      <li>{{ infos[x.id].atividade2 }}</li>
-      <li>{{ infos[x.id].atividade3 }}</li>
+      <ul>
+        <li class="title">{{ infos[x.id].empresa }}</li>
+        <li class="subtitle">{{ infos[x.id].cargo }}</li>
+        <li class="atv">{{ infos[x.id].atividade1 }}</li>
+        <li class="atv">{{ infos[x.id].atividade2 }}</li>
+        <li class="atv">{{ infos[x.id].atividade3 }}</li>
+        <br><hr><br>
+      </ul>
     </div>
   </div>
 </template>
 
 <style scoped>
-.container {
-  background-color: red;
-  color: wheat;
-}
 
-.h2 {
+li {
+  list-style-type: none;
+}
+.title {
+  font-weight: 800;
+  font-size: 25px;
   color: rgb(0, 113, 189);
 }
+.subtitle {
+  font-weight: 400;
+  font-size: 20px;
+}
+.atv {
+  font-weight: 200;
+}
+
 </style>

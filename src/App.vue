@@ -2,7 +2,6 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Rodape from './components/Rodape.vue';
-
 </script>
 <template>
   <header>
@@ -15,7 +14,7 @@ import Rodape from './components/Rodape.vue';
         <RouterLink to="/">Informações Pessoais</RouterLink>
         <RouterLink to="/about">Experiência Profisional</RouterLink>
         <RouterLink to="/Hobbies">Hobbies</RouterLink>
-        <RouterLink to="/gatos">Meus Gatos!</RouterLink>
+        <RouterLink to="/Gatos">Meus Gatos!</RouterLink>
       </nav>
     </div>
   </header>
