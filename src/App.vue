@@ -1,6 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import Rodape from './components/Rodape.vue';
 
 </script>
 <template>
@@ -23,7 +24,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </main>
 
   <footer>
-
+      <Rodape/>
   </footer>
 
 </template>
@@ -73,19 +74,5 @@ nav a:first-of-type {
 
 main {
   min-height: 150vh;
-}
-
-#back-to-top {
-/*   position: fixed;
-  bottom: 50px;
-  right: 50px; */
-  cursor: pointer;
-        border: 1px solid #3498db;
-        background-color: transparent;
-        height: 50px;
-        width: 140px;
-        font-size: large;
-        color: #3498db;
-        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
 }
 </style>
