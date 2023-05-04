@@ -14,7 +14,8 @@ import Rodape from './components/Rodape.vue';
       <nav>
         <RouterLink to="/">Informações Pessoais</RouterLink>
         <RouterLink to="/about">Experiência Profisional</RouterLink>
-        <RouterLink to="/carrossel">Carrossel de fotos</RouterLink>
+        <RouterLink to="/Hobbies">Hobbies</RouterLink>
+        <RouterLink to="/gatos">Meus Gatos!</RouterLink>
       </nav>
     </div>
   </header>
