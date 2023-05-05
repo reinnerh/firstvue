@@ -19,7 +19,7 @@ import Botoes from './components/Botoes.vue';
         </nav>
       </div>
     </header>
-
+<br>
     <main id="teste">
       <RouterView />
     </main>
@@ -57,6 +57,7 @@ nav {
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
+  border-color: grey;
 }
 
 nav a.router-link-exact-active {
