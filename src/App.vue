@@ -2,34 +2,46 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Rodape from './components/Rodape.vue';
+import Botoes from './components/Botoes.vue';
 </script>
 <template>
-  <header>
-    <div class="wrapper">
-      <HelloWorld msg="Bem Vindo!" />
+  <body>
+    <header>
+      <div class="wrapper">
+        <HelloWorld msg="Bem Vindo!" />
 
-    </div>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Informações Pessoais</RouterLink>
-        <RouterLink to="/about">Experiência Profisional</RouterLink>
-        <RouterLink to="/Hobbies">Hobbies</RouterLink>
-        <RouterLink to="/Gatos">Meus Gatos!</RouterLink>
-      </nav>
-    </div>
-  </header>
+      </div>
+      <div class="wrapper">
+        <nav>
+          <RouterLink to="/">Experiência Profisional</RouterLink>
+          <RouterLink to="/Hobbies">Hobbies</RouterLink>
+          <RouterLink to="/Gatos">Meus Gatos!</RouterLink>
+        </nav>
+      </div>
+    </header>
 
-  <main id="teste">
-  <RouterView />
-  </main>
+    <main id="teste">
+      <RouterView />
+    </main>
 
-  <footer>
-      <Rodape/>
-  </footer>
 
+    <footer>
+      <Rodape />
+    </footer>
+  </body>
+  <Botoes />
 </template>
 
 <style scoped>
+body {
+  margin: auto;
+  display: flex;
+  max-width: 1280px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -70,5 +82,4 @@ main {
 footer {
   text-align: center;
 }
-
 </style>

@@ -1,32 +1,47 @@
 <script>
-export default {
-  methods: {
-    backtotop() {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }
-}
+import { useLink } from 'vue-router';
+
 
 </script>
 <template>
-  <div class='back-to-top'>
-    <button @click="backtotop()">Voltar ao topo!</button>
-  </div>
+    <div class="contatos">
+        <div class='github'>
+            <button> 
+                <a href="https://github.com/reinnerh"><img src="../Photos_Icons/github.png" alt=""></a>
+            </button>
+        </div>
+        <div class='linkedin'>
+            <button> 
+                <a href="https://www.linkedin.com/in/leonardo-reinner-hubsch-a57017190/"><img src="../Photos_Icons/linkedin.webp" alt=""></a>
+            </button>
+
+        </div>
+        <div class='whats'>
+            <button> 
+                <a href="https://wa.me/+5541998673262"><img src="../Photos_Icons/wpp.webp" alt=""></a>
+            </button>
+        </div>
+
+        
+    </div>
 </template>
 
-<style scoped>
-template {
-  justify-content: center;
+<style scoped>  
+button {
+    background-color: transparent;
+    border-color: transparent;
 }
 
-.back-to-top button {
-  cursor: pointer;
-  border: 1px solid rgb(0, 113, 189);
-  background-color: transparent;
-  height: 40px;
-  width: 125px;
-  color: rgb(0, 113, 189);
-  font-size: 17px;
-  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+.contatos img {
+    width: 50px;
+    border-radius: 20px;
 }
+    
+
+.contatos {
+    background-color: transparent;
+      position: fixed;
+      bottom: 100px;
+      right: 100px;
+  }
 </style>
