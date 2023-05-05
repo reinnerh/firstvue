@@ -1,4 +1,4 @@
-<!-- <script>
+<script>
 export default {
   data() {
     return {
@@ -82,4 +82,4 @@ li {
   font-weight: 200;
 }
 
-</style> -->
+</style>
