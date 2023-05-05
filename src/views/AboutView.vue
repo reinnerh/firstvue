@@ -53,11 +53,11 @@ export default {
   <div class="container">
     <div class="expp" v-for="x in infos">
       <ul>
-        <li class="title">{{ infos[x.id].empresa }}</li>
-        <li class="subtitle">{{ infos[x.id].cargo }}</li>
-        <li class="atv">{{ infos[x.id].atividade1 }}</li>
-        <li class="atv">{{ infos[x.id].atividade2 }}</li>
-        <li class="atv">{{ infos[x.id].atividade3 }}</li>
+        <li class="title">{{ x.empresa }}</li>
+        <li class="subtitle">{{ x.cargo }}</li>
+        <li class="atv">{{ x.atividade1 }}</li>
+        <li class="atv">{{ x.atividade2 }}</li>
+        <li class="atv">{{ x.atividade3 }}</li>
         <br><hr><br>
       </ul>
     </div>

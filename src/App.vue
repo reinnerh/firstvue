@@ -62,18 +62,6 @@ nav a:first-of-type {
   border: 0;
 }
 
-@media (min-width: 1024px) {
-
-  nav {
-    text-align: center;
-    font-size: 1rem;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    padding: 1rem 0;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-}
-
 main {
   min-height: 150vh;
 

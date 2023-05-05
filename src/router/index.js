@@ -15,15 +15,15 @@ const router = createRouter({
       component: () => import('../views/AboutView.vue')
     },
     {
-    path: '/gatos',
-    name: 'gatos',
-    component: () => import('../views/GatosView.vue')
-    },
-    {
       path: '/gatos',
       name: 'gatos',
+      component: () => import('../views/GatosView.vue')
+    },
+    {
+      path: '/hobbies',
+      name: 'hobbies',
       component: () => import('../views/HobbiesView.vue')
-      }
+    }
   ]
 })
 
