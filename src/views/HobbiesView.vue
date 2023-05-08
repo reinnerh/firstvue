@@ -6,22 +6,22 @@ export default {
                 {
                     id: 0,
                     hobbie: "Fotografia",
-                    gif: "../../src/Gifs/photo.gif",
+                    gif: "./src/Gifs/photo.gif",
                 },
                 {
                     id: 1,
                     hobbie: "Games",
-                    gif: "../../src/Gifs/gamer.gif",
+                    gif: "./src/Gifs/gamer.gif",
                 },
                 {
                     id: 2,
                     hobbie: "Acampar",
-                    gif: "../../src/Gifs/camping.gif",
+                    gif: "./src/Gifs/camping.gif",
                 },
                 {
                     id: 3,
                     hobbie: "Cozinhar",
-                    gif: "../../src/Gifs/cooking.gif",
+                    gif: "./src/Gifs/cooking.gif",
                 }
             ]
         }
