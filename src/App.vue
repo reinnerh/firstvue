@@ -8,14 +8,14 @@ import Botoes from './components/Botoes.vue';
   <body>
     <header>
       <div class="wrapper">
-        <HelloWorld msg="Bem Vindo!" />
+        <HelloWorld msg="Bem-vindo!" />
 
       </div>
       <div class="wrapper">
         <nav>
-          <RouterLink to="/">Experiência Profisional</RouterLink>
+          <RouterLink to="/">Experiência profissional</RouterLink>
           <RouterLink to="/Hobbies">Hobbies</RouterLink>
-          <RouterLink to="/Gatos">Meus Gatos!</RouterLink>
+          <RouterLink to="/Gatos">Meus gatos</RouterLink>
         </nav>
       </div>
     </header>
@@ -54,7 +54,7 @@ header {
 
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 20px;
   text-align: center;
   margin-top: 2rem;
   border-color: grey;

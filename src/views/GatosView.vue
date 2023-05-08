@@ -17,7 +17,7 @@ p {
 
 img {
     width: 500px;
-    border-radius: 60%;
+    border-radius: 10%;
 }
 
 </style>

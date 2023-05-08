@@ -8,40 +8,56 @@ export default {
           empresa: "4Network",
           cargo: "Consultor de Infraestrutura",
           atividade1: "Manutenção e acompanhamento da infra da empresa",
-          atividade2: "Controle de e-mails e usuarios",
-          atividade3: "Auxilio nos ambientes da empresa"
+          atividade2: "Controle de e-mails e usuários",
+          atividade3: "Auxílio nos ambientes de desenvolvimento"
         },
         {
           id: 1,
           empresa: "Premisse Indústria de Cosméticos",
           cargo: "Gestor de Tecnologia da Informação",
-          atividade1: "Coordenação de todos assuntos relacionados a tecnologia da empresa",
-          atividade2: "Controle e documentação dos processos referentes a tecnologia",
-          atividade3: "Manutenção de equipamentos e auxilio aos colaboradores"
+          atividade1: "Coordenação de todos os assuntos relacionados à tecnologia da empresa",
+          atividade2: "Controle e documentação dos processos referentes à tecnologia",
+          atividade3: "Manutenção de equipamentos e auxílio aos colaboradores"
         },
         {
           id: 2,
           empresa: "Grupo Bellinati Perez",
           cargo: "Analista de suporte",
-          atividade1: "Auxilio aos colaboradores",
-          atividade2: "suporte variado relacionado a hardware, software e telecom",
+          atividade1: "Auxílio aos colaboradores",
+          atividade2: "Suporte variado relacionado à hardware, software e telecom",
           atividade3: "Manutenção de hardware"
         },
         {
           id: 3,
           empresa: "Grupo Alcatraz Segurança",
-          cargo: "Assisdente administrativo e suporte",
+          cargo: "Assistente administrativo e suporte",
           atividade1: "Manutenção e programação de rastreadores",
-          atividade2: "Cadastro de usuarios e controle de estoque de equipamentos",
-          atividade3: "auxílio a equipe de T.I"
+          atividade2: "Cadastro de usuários e controle de estoque de equipamentos",
+          atividade3: "Auxílio à equipe de T.I"
         },
         {
           id: 4,
           empresa: "Cerise Restaurante & Café",
           cargo: "Garçom e T.I",
           atividade1: "Atendimento ao cliente",
-          atividade2: "Manutenção dos equipamentos e software relacionado a tecnologia",
-          atividade3: "cuidado com estoque e notas"
+          atividade2: "Manutenção dos equipamentos e softwares relacionados à tecnologia",
+          atividade3: "Responsável pelo estoque e emissão de notas"
+        },
+        {
+          id: 5,
+          empresa:"Cursos complementares",
+          cargo:"",
+          atividade1: "Linguagens: Ruby, GO, JS, C, C++, C#",
+          atividade2: "AWS Cloud Practitioner, SysOps Administrator",
+          atividade3: "Vue JS, DevOps Enginner"
+        },
+        {
+          id: 6,
+          empresa:"Projetos",
+          cargo:"",
+          atividade1: "Finalizados: Migração de domínio 4Network, Exclusive Lounge",
+          atividade2: "Em processo: CI/CD Dev 4Network, Azure DevOps, Controle de SMTP",
+          atividade3: ""
         }
       ]
     }
@@ -71,15 +87,16 @@ li {
 }
 .title {
   font-weight: 800;
-  font-size: 25px;
+  font-size: 30px;
   color: rgb(0, 113, 189);
 }
 .subtitle {
   font-weight: 400;
-  font-size: 20px;
+  font-size: 23px;
 }
 .atv {
   font-weight: 200;
+  font-size: 17px;
 }
 
 </style>

@@ -34,7 +34,9 @@ export default {
         <div class="hobbies" v-for="x in infos">
             <ul>
                 <li class="hobbie">{{ x.hobbie }}</li>
+                <br>
                 <li class="img"><img :src="x.gif" alt=""></li>
+                <br>
             </ul>
         </div>
     </div>
@@ -56,6 +58,9 @@ li {
     font-weight: 800;
     font-size: 25px;
     color: rgb(0, 113, 189);
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 img {
