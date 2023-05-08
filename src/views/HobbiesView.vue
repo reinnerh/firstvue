@@ -1,4 +1,8 @@
 <script>
+import giffoto from "@/Gifs/photo.gif"
+import gifgames from "@/Gifs/gamer.gif"
+import gifcamp from "@/Gifs/camping.gif"
+import gifcooking from "@/Gifs/cooking.gif"
 export default {
     data() {
         return {
@@ -6,22 +10,22 @@ export default {
                 {
                     id: 0,
                     hobbie: "Fotografia",
-                    gif: "./src/Gifs/photo.gif",
+                    gif: giffoto,
                 },
                 {
                     id: 1,
                     hobbie: "Games",
-                    gif: "./src/Gifs/gamer.gif",
+                    gif: gifgames,
                 },
                 {
                     id: 2,
                     hobbie: "Acampar",
-                    gif: "./src/Gifs/camping.gif",
+                    gif: gifcamp,
                 },
                 {
                     id: 3,
                     hobbie: "Cozinhar",
-                    gif: "./src/Gifs/cooking.gif",
+                    gif: gifcooking,
                 }
             ]
         }
