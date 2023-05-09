@@ -4,32 +4,40 @@ import HelloWorld from './components/HelloWorld.vue'
 import Rodape from './components/Rodape.vue';
 import Botoes from './components/Botoes.vue';
 </script>
+
 <template>
+
   <body>
+
     <header>
       <div class="wrapper">
         <HelloWorld msg="Bem-vindo!" />
-
       </div>
+
       <div class="wrapper">
         <nav>
+<br>
           <RouterLink to="/">Experiência profissional</RouterLink>
           <RouterLink to="/Hobbies">Hobbies</RouterLink>
           <RouterLink to="/Gatos">Meus gatos</RouterLink>
         </nav>
       </div>
     </header>
+
 <br>
+
     <main id="teste">
       <RouterView />
     </main>
 
-
     <footer>
       <Rodape />
     </footer>
+
   </body>
-  <Botoes />
+
+    <Botoes />
+    
 </template>
 
 <style scoped>
@@ -40,6 +48,13 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+header {
+  background-color: rgba(146, 146, 146, 0.178);
+  width: 750px;
+  padding: 50px;
+  margin: 20px;
 }
 
 header {
@@ -58,6 +73,10 @@ nav {
   text-align: center;
   margin-top: 2rem;
   border-color: grey;
+}
+
+hr {
+  border-top: 2px solid #ffffff;
 }
 
 nav a.router-link-exact-active {

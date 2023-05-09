@@ -6,12 +6,13 @@ export default {
     }
   }
 }
-
 </script>
+
 <template>
   <div class='back-to-top'>
     <button @click="backtotop()">Voltar ao topo</button>
   </div>
+  <br>
 </template>
 
 <style scoped>

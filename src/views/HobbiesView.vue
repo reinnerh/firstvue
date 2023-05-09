@@ -34,6 +34,7 @@ export default {
 </script>
 
 <template>
+<div id="box">
     <div class="container">
         <div class="hobbies" v-for="x in infos">
             <ul>
@@ -44,9 +45,19 @@ export default {
             </ul>
         </div>
     </div>
+</div>
 </template>
 
 <style scoped>
+
+div#box {
+  background-color: rgba(146, 146, 146, 0.178);
+  width: 750px;
+  padding: 50px;
+  margin: 20px;
+}
+
+
 li {
     list-style-type: none;
 }
