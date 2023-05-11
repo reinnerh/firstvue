@@ -3,6 +3,9 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
 import Rodape from './components/Rodape.vue';
 import Botoes from './components/Botoes.vue';
+
+
+
 </script>
 
 <template>
@@ -12,6 +15,12 @@ import Botoes from './components/Botoes.vue';
     <header>
       <div class="wrapper">
         <HelloWorld msg="Bem-vindo!" />
+        <div>
+        <label class="switch">
+          <input type="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
       </div>
 
       <div class="wrapper">
