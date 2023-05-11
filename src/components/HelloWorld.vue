@@ -1,10 +1,18 @@
-<script setup>
-defineProps({
+<script >
+
+export default {
+  props: {
+    msg: String,
+  }
+}
+
+/* defineProps({
   msg: {
     type: String,
     required: true
   }
-})
+}) */
+
 </script>
 
 <template>
@@ -32,7 +40,16 @@ img {
   border-radius: 50%;
   height: 250px;
   text-shadow: 5px;
+  border: 4px solid rgb(0, 113, 189);
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
 }
+
+img :hover {
+  -webkit-transform:scale(1.2);
+  transform:scale(1.2);
+}
+
 
 h1 {
   font-weight: 500;

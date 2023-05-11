@@ -23,9 +23,20 @@
 }
 
 
+.dark-mode {
 
-/* semantic color variables for this project */
-:root {
+  --color-background: url("/src/Photos_Icons/FundoPreto.jpg");
+
+  --color-border: var(--vt-c-divider-dark-2);
+  --color-border-hover: var(--vt-c-divider-dark-1);
+
+  --color-heading: var(--vt-c-text-dark-1);
+  --color-text: var(--vt-c-text-dark-2);
+
+}
+
+
+.light-mode {
   --color-background:  url("/src/Photos_Icons/FundoBranco.jpg");
 
   --color-border: var(--vt-c-divider-light-2);
@@ -35,18 +46,6 @@
   --color-text: var(--vt-c-text-light-1);
 
   --section-gap: 160px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: url("/src/Photos_Icons/FundoPreto.jpg");
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
 }
 
 *,
@@ -72,4 +71,8 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+ /*  color: var(--primary-color) */
 }
+
+

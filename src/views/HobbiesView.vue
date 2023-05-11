@@ -53,8 +53,9 @@ export default {
 div#box {
   background-color: rgba(146, 146, 146, 0.178);
   width: 750px;
-  padding: 50px;
-  margin: 20px;
+  padding: 45px;
+  margin: 15px;
+  
 }
 
 
