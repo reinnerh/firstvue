@@ -89,13 +89,14 @@ export default {
 <style scoped>
 #Botao {
   cursor: pointer;
-  border: 1px solid rgb(0, 0, 0);
+  border: 0px solid rgba(255, 255, 255, 0);
   background-color: transparent;
   height: 40px;
   width: 100px;
   color: rgb(0, 113, 189);
-  font-size: 17px;
-  box-shadow: 0 6px 6px rgba(129, 129, 129, 0.438);
+  box-shadow: 0 4px 4px rgba(129, 129, 129, 0.151);
+  border-left: 2px solid var(--color-border);
+  border-right: 2px solid var(--color-border);
 }
 
 #Botao{
@@ -145,6 +146,8 @@ nav {
   text-align: center;
   margin-top: 2rem;
   border-color: grey;
+  font-weight: 800;
+  font-size: 20px;
 }
 
 hr {
@@ -158,7 +161,7 @@ nav a.router-link-exact-active {
 nav a {
   display: inline-block;
   padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  border-left: 2px solid var(--color-border);
 }
 
 nav a:first-of-type {

@@ -41,27 +41,21 @@ img {
   height: 250px;
   text-shadow: 5px;
   border: 4px solid rgb(0, 113, 189);
-  -webkit-transition: all 0.7s ease;
-  transition: all 0.7s ease;
 }
-
-img :hover {
-  -webkit-transform:scale(1.2);
-  transform:scale(1.2);
-}
-
 
 h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
+  font-weight: 800;
+  font-size: 30px;
+  color: rgb(0, 113, 189);
 }
 
 h4 {
-  font-size: 1.3rem;
+  font-weight: 800;
+  font-size: 25px;
   font-weight: bold;
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 </style>
